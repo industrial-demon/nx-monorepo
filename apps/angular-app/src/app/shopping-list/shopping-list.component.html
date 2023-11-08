@@ -1,0 +1,10 @@
+<div class="shopping-list">
+  <shopping-edit></shopping-edit>
+  <hr />
+  <mat-list role="list">
+    <a *ngFor="let ingridient of ingridients" mat-list-item role="listitem">
+      {{ ingridient.name }}
+      ({{ ingridient.amount }})
+    </a>
+  </mat-list>
+</div>

@@ -1,0 +1,119 @@
+<h2 class="text-center text-2xl font-semibold mb-6">
+  Reactive Form (better approach)
+</h2>
+
+<form class="flex flex-col items-center" [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-chip-option color="accent" selectable="false" [selected]="form.status === 'VALID'">{{form.status}}</mat-chip-option>
+  <div class="max-w-[600px] [&>div]:gap-4">
+    <div class="grid grid-cols-2">
+      <mat-form-field class="example-full-width">
+        <mat-label>First name</mat-label>
+        <input id="firstName" matInput placeholder="Petro" formControlName="firstName" />
+
+        <mat-hint [ngSwitch]="true" class="text-red-600">
+          <ng-container *ngSwitchCase="
+              form.get('firstName')?.errors?.['required'] && form.get('firstName')?.touched
+            ">Please enter valid name</ng-container>
+
+          <ng-container *ngSwitchCase="
+            form.get('firstName')?.errors?.['forbiddenName']
+          ">This name is not valid</ng-container>
+        </mat-hint>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Last name</mat-label>
+        <input id="lastName" matInput formControlName="lastName" placeholder="Pupkin" />
+        <mat-hint *ngIf="!form.get('lastName')?.valid && form.get('lastName')?.touched" class="text-red-600">please
+          enter valid name</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Date Of Birth</mat-label>
+        <input formControlName="dateOfBirth" name="dateOfBirth" id="dateOfBirth" matInput type="date" />
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>E-mail</mat-label>
+        <input id="email" matInput placeholder="example@example.com" formControlName="email" />
+        <mat-hint *ngIf="!form.get('email')?.valid && form.get('email')?.touched" class="text-red-600">please
+          Enter valid email</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Framework</mat-label>
+        <mat-select formControlName="framework" id="framework" (selectionChange)="onFrameworkChange($event)">
+          <mat-option *ngFor="let framework of frameworkList" [value]="framework.value" class="z-50 bg-green-300">
+            {{ framework.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Framework version</mat-label>
+        <mat-select id="frameworkVersion" formControlName="frameworkVersion">
+          <mat-option *ngFor="let version of frameworkVersions" [value]="version.value" class="z-50 bg-green-300">
+            {{ version.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="flexitems-center justify-start">
+      <label id="example-radio-group-label">Gender:</label>
+      <mat-radio-group color="primary" aria-labelledby="example-radio-group-label" formControlName="gender" required>
+        <mat-radio-button class="example-radio-button" *ngFor="let gender of genders" [value]="gender">
+          {{ gender }}
+        </mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div formArrayName="hobbies" class="flex flex-col my-4">
+      <h3>Add hobby</h3>
+      <mat-hint *ngIf="!form.get('hobbies')?.valid && form.get('lastName')?.touched" class="text-red-600">You are must
+        indicate one hobby</mat-hint>
+      <ng-container *ngFor="let hobbyGroupControl of hobbies.controls; let i = index">
+        <div [formGroupName]="i">
+          <mat-form-field>
+            <mat-label>Hobby name</mat-label>
+            <input id="hobby.name" matInput formControlName="name" />
+            <mat-hint *ngIf="
+                !form.get('lastName')?.valid && form.get('lastName')?.touched
+              " class="text-red-600">please enter vXalid name</mat-hint>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Duration</mat-label>
+            <input id="hobby.duration" matInput formControlName="duration" />
+            <mat-hint *ngIf="
+                !form.get('lastName')?.valid && form.get('lastName')?.touched
+              " class="text-red-600">please enter valid name</mat-hint>
+          </mat-form-field>
+        </div>
+      </ng-container>
+      <button mat-raised-button color="primary" (click)="onAddHobby()">
+        Add hobby
+      </button>
+    </div>
+
+    <div class="flex gap-6">
+      <button mat-flat-button color="primary" type="submit">Submit</button>
+
+      <button mat-stroked-button color="primary" (click)="onResetForm()">
+        Reset
+      </button>
+    </div>
+  </div>
+</form>
+
+<div *ngIf="userData" class="flex flex-col items-center">
+  <span>{{ userData.firstName }}</span>
+  <span>{{ userData.lastName }}</span>
+  <span>{{ userData.framework }}</span>
+  <span>{{ userData.frameworkVersion }}</span>
+  <span>{{ userData.email }}</span>
+  <span>{{ userData.gender }}</span>
+
+  <hr />
+  <h4>Hobbies</h4>
+</div>

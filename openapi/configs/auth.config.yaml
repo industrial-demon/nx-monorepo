@@ -1,0 +1,8 @@
+generatorName: typescript-axios
+cleanupOutput: true
+useSingleRequestParameter: true
+enumPropertyNaming: "UPPERCASE"
+inputSpec: http://localhost:4002/api/auth-docs-json
+outputDir: ./libs/api/src/connections
+additionalProperties:
+  supportsES6: true

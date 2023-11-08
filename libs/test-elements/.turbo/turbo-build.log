@@ -1,0 +1,378 @@
+[36mvite v3.2.6 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 132 modules transformed.
+rendering chunks...
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ui.es.js                                        [39m [2m4.47 KiB / gzip: 1.03 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ui.es.js.map                                    [39m [2m0.14 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form.es.js                                            [39m [2m0.62 KiB / gzip: 0.21 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form.es.js.map                                        [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/hooks/form-hooks.es.js                                [39m [2m0.10 KiB / gzip: 0.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/hooks/form-hooks.es.js.map                            [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mindex.es.js                                                [39m [2m0.05 KiB / gzip: 0.06 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mindex.es.js.map                                            [39m [2m0.09 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/index.es.js                              [39m [2m0.64 KiB / gzip: 0.30 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/index.es.js.map                          [39m [2m0.61 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/hooks/useFormWithContext.es.js                        [39m [2m0.59 KiB / gzip: 0.29 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/hooks/useFormWithContext.es.js.map                    [39m [2m0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Badge/Badge.es.js                               [39m [2m0.78 KiB / gzip: 0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Badge/Badge.es.js.map                           [39m [2m0.87 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ScrollArea/ScrollArea.es.js                     [39m [2m1.09 KiB / gzip: 0.37 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ScrollArea/ScrollArea.es.js.map                 [39m [2m0.93 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/Icon.es.js                                 [39m [2m5.47 KiB / gzip: 2.13 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/Icon.es.js.map                             [39m [2m1.94 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Switch/Switch.es.js                             [39m [2m1.05 KiB / gzip: 0.54 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Switch/Switch.es.js.map                         [39m [2m0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/DropdownMenu/DropdownMenu.es.js                 [39m [2m1.48 KiB / gzip: 0.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/DropdownMenu/DropdownMenu.es.js.map             [39m [2m1.04 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Separator/Separator.es.js                       [39m [2m0.60 KiB / gzip: 0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Separator/Separator.es.js.map                   [39m [2m0.55 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AppHeader/AppHeader.es.js                       [39m [2m2.70 KiB / gzip: 0.87 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AppHeader/AppHeader.es.js.map                   [39m [2m2.13 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Popover/Popover.es.js                           [39m [2m1.65 KiB / gzip: 0.64 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Popover/Popover.es.js.map                       [39m [2m1.37 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Input/Input.es.js                               [39m [2m0.90 KiB / gzip: 0.47 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Input/Input.es.js.map                           [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/OnClickOutsideArea/OnClickOutsideArea.es.js     [39m [2m0.85 KiB / gzip: 0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/OnClickOutsideArea/OnClickOutsideArea.es.js.map [39m [2m0.88 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/BusyIndicator/BusyIndicator.es.js               [39m [2m0.96 KiB / gzip: 0.25 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/BusyIndicator/BusyIndicator.es.js.map           [39m [2m0.85 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/ComboBox.es.js                         [39m [2m3.07 KiB / gzip: 1.02 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/ComboBox.es.js.map                     [39m [2m2.88 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Checkbox/Checkbox.es.js                         [39m [2m0.86 KiB / gzip: 0.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Checkbox/Checkbox.es.js.map                     [39m [2m0.68 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Label/Label.es.js                               [39m [2m0.63 KiB / gzip: 0.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Label/Label.es.js.map                           [39m [2m0.74 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/Dialog.es.js                             [39m [2m1.00 KiB / gzip: 0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/Dialog.es.js.map                         [39m [2m0.86 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/model/store.control.es.js                [39m [2m0.33 KiB / gzip: 0.20 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/model/store.control.es.js.map            [39m [2m0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Button/Button.es.js                             [39m [2m3.42 KiB / gzip: 1.20 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Button/Button.es.js.map                         [39m [2m2.09 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/RadioGroup/RadioGroup.es.js                     [39m [2m0.28 KiB / gzip: 0.19 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/RadioGroup/RadioGroup.es.js.map                 [39m [2m0.34 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDalog.es.js                    [39m [2m1.33 KiB / gzip: 0.56 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDalog.es.js.map                [39m [2m1.03 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/RadioGroup/RadioItem.es.js                      [39m [2m1.30 KiB / gzip: 0.56 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/RadioGroup/RadioItem.es.js.map                  [39m [2m1.24 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/context/index.es.js                      [39m [2m2.00 KiB / gzip: 0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/context/index.es.js.map                  [39m [2m1.95 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDialogTrigger.es.js            [39m [2m0.30 KiB / gzip: 0.20 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDialogTrigger.es.js.map        [39m [2m0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-manager.es.js                     [39m [2m1.37 KiB / gzip: 0.55 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-manager.es.js.map                 [39m [2m1.18 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Title/Title.es.js                               [39m [2m0.19 KiB / gzip: 0.17 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Title/Title.es.js.map                           [39m [2m0.27 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Table/Table.es.js                               [39m [2m4.99 KiB / gzip: 1.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Table/Table.es.js.map                           [39m [2m4.12 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-select/form-select.es.js                         [39m [2m0.97 KiB / gzip: 0.40 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-select/form-select.es.js.map                     [39m [2m0.93 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-field/form-field.es.js                           [39m [2m1.00 KiB / gzip: 0.42 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-field/form-field.es.js.map                       [39m [2m0.98 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-controller/form-controller.es.js                 [39m [2m0.73 KiB / gzip: 0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-controller/form-controller.es.js.map             [39m [2m0.80 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/controller/index.es.js                    [39m [2m1.93 KiB / gzip: 0.81 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/controller/index.es.js.map                [39m [2m1.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/UserMenu/UserMenu.es.js                         [39m [2m2.20 KiB / gzip: 0.80 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/UserMenu/UserMenu.es.js.map                     [39m [2m1.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/model/toast.store.es.js                   [39m [2m1.18 KiB / gzip: 0.44 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/model/toast.store.es.js.map               [39m [2m0.99 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/page-size.es.js                      [39m [2m0.56 KiB / gzip: 0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/page-size.es.js.map                  [39m [2m0.70 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/model/pagiantion.store.es.js         [39m [2m1.80 KiB / gzip: 0.61 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/model/pagiantion.store.es.js.map     [39m [2m1.13 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/hooks/usePagination.es.js            [39m [2m1.35 KiB / gzip: 0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/hooks/usePagination.es.js.map        [39m [2m1.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-connector/form-connector.es.js                   [39m [2m0.38 KiB / gzip: 0.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-connector/form-connector.es.js.map               [39m [2m0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/paginator.es.js                      [39m [2m2.78 KiB / gzip: 0.85 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/paginator.es.js.map                  [39m [2m1.82 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/TextArea/TextArea.es.js                         [39m [2m0.97 KiB / gzip: 0.48 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/TextArea/TextArea.es.js.map                     [39m [2m0.95 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Tabs/Tabs.es.js                                 [39m [2m2.21 KiB / gzip: 0.82 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Tabs/Tabs.es.js.map                             [39m [2m1.59 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/ReactSelect.es.js                   [39m [2m1.61 KiB / gzip: 0.62 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/ReactSelect.es.js.map               [39m [2m1.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/field-wrapper/field-wrapper.es.js                     [39m [2m0.75 KiB / gzip: 0.37 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/field-wrapper/field-wrapper.es.js.map                 [39m [2m0.74 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-checkbox/form-checkbox.es.js                     [39m [2m0.92 KiB / gzip: 0.40 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-checkbox/form-checkbox.es.js.map                 [39m [2m0.93 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-datepicker/form-date-picker.es.js                [39m [2m1.26 KiB / gzip: 0.57 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-datepicker/form-date-picker.es.js.map            [39m [2m1.12 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/plus.es.js                          [39m [2m0.38 KiB / gzip: 0.27 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/plus.es.js.map                      [39m [2m0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/settings.es.js                      [39m [2m0.64 KiB / gzip: 0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/settings.es.js.map                  [39m [2m0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/filter.es.js                        [39m [2m1.05 KiB / gzip: 0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/filter.es.js.map                    [39m [2m0.44 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/columnToggler.es.js                 [39m [2m1.02 KiB / gzip: 0.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/columnToggler.es.js.map             [39m [2m0.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/edit.es.js                          [39m [2m0.70 KiB / gzip: 0.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/edit.es.js.map                      [39m [2m0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/copy.es.js                          [39m [2m0.81 KiB / gzip: 0.41 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/copy.es.js.map                      [39m [2m0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/state.es.js                         [39m [2m1.77 KiB / gzip: 0.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/state.es.js.map                     [39m [2m0.62 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/clock.es.js                         [39m [2m0.67 KiB / gzip: 0.40 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/clock.es.js.map                     [39m [2m0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/trash.es.js                         [39m [2m0.87 KiB / gzip: 0.46 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/trash.es.js.map                     [39m [2m0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/more.es.js                          [39m [2m0.98 KiB / gzip: 0.40 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/more.es.js.map                      [39m [2m0.40 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/notepad.es.js                       [39m [2m0.71 KiB / gzip: 0.42 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/notepad.es.js.map                   [39m [2m0.34 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/arrow-export.es.js                  [39m [2m0.61 KiB / gzip: 0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/arrow-export.es.js.map              [39m [2m0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/BusyIndicator/busyIndicator.es2.js              [39m [2m0.06 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/BusyIndicator/busyIndicator.es2.js.map          [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/printer.es.js                       [39m [2m1.59 KiB / gzip: 0.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/printer.es.js.map                   [39m [2m0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/hooks/useDelayedLoader.es.js           [39m [2m0.54 KiB / gzip: 0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/hooks/useDelayedLoader.es.js.map       [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDialogCloseButton.es.js        [39m [2m0.63 KiB / gzip: 0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDialogCloseButton.es.js.map    [39m [2m0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/hooks/usePopperToggle.es.js            [39m [2m0.45 KiB / gzip: 0.21 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/hooks/usePopperToggle.es.js.map        [39m [2m0.58 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ScrollArea/styles.es.js                         [39m [2m0.05 KiB / gzip: 0.06 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ScrollArea/styles.es.js.map                     [39m [2m0.09 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-reference.es.js                   [39m [2m2.88 KiB / gzip: 1.06 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-reference.es.js.map               [39m [2m2.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-popper.es.js                      [39m [2m2.51 KiB / gzip: 0.89 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-popper.es.js.map                  [39m [2m2.18 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/context/useDelayedLoader.es.js           [39m [2m0.54 KiB / gzip: 0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/context/useDelayedLoader.es.js.map       [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/UserMenu/user.es.js                             [39m [2m0.74 KiB / gzip: 0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/UserMenu/user.es.js.map                         [39m [2m0.41 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/view/toast-notification.es.js             [39m [2m1.96 KiB / gzip: 0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/view/toast-notification.es.js.map         [39m [2m1.36 KiB[22m
+Entry module "src/components/ComboBox/hooks/usePopperToggle.tsx" is using named and default exports together. Consumers of your bundle will have to use `chunk["default"]` to access the default export, which may not be what you want. Use `output.exports: "named"` to disable this warning
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogCloseButton.es.js       [39m [2m0.47 KiB / gzip: 0.25 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogCloseButton.es.js.map   [39m [2m0.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/theme.es.js                         [39m [2m0.16 KiB / gzip: 0.13 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/theme.es.js.map                     [39m [2m0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogHeader.es.js            [39m [2m0.65 KiB / gzip: 0.34 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogHeader.es.js.map        [39m [2m0.60 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogTitle.es.js             [39m [2m0.47 KiB / gzip: 0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogTitle.es.js.map         [39m [2m0.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogClose.es.js             [39m [2m0.26 KiB / gzip: 0.19 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogClose.es.js.map         [39m [2m0.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogContent.es.js           [39m [2m1.92 KiB / gzip: 0.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogContent.es.js.map       [39m [2m1.55 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboOption.es.js           [39m [2m1.45 KiB / gzip: 0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboOption.es.js.map       [39m [2m1.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboList.es.js             [39m [2m1.18 KiB / gzip: 0.58 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboList.es.js.map         [39m [2m1.15 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/load-indicator.es.js       [39m [2m0.47 KiB / gzip: 0.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/load-indicator.es.js.map   [39m [2m0.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboTrigger.es.js          [39m [2m3.00 KiB / gzip: 1.11 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboTrigger.es.js.map      [39m [2m2.25 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/dropdown-indicator.es.js   [39m [2m0.42 KiB / gzip: 0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/dropdown-indicator.es.js.map[39m [2m0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/no-options-message.es.js   [39m [2m0.16 KiB / gzip: 0.15 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/no-options-message.es.js.map[39m [2m0.27 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/indicator-separator.es.js  [39m [2m0.42 KiB / gzip: 0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/indicator-separator.es.js.map[39m [2m0.58 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/lib/getToastAttributes.es.js              [39m [2m1.07 KiB / gzip: 0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/lib/getToastAttributes.es.js.map          [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/LoadIndicator/LoadIndicator.es.js               [39m [2m0.47 KiB / gzip: 0.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/LoadIndicator/LoadIndicator.es.js.map           [39m [2m0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/combo-input.es.js               [39m [2m1.66 KiB / gzip: 0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/combo-input.es.js.map           [39m [2m1.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/load-indicator.es2.js      [39m [2m0.06 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/load-indicator.es2.js.map  [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/load-indicator.es.js            [39m [2m0.47 KiB / gzip: 0.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/load-indicator.es.js.map        [39m [2m0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/LoadIndicator/load-indicator.es.js              [39m [2m0.06 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/LoadIndicator/load-indicator.es.js.map          [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/load-indicator.es2.js           [39m [2m0.06 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/load-indicator.es2.js.map       [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/option.es.js                    [39m [2m1.37 KiB / gzip: 0.68 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/option.es.js.map                [39m [2m0.99 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[35mstyle.css                                                  [39m [2m55.72 KiB / gzip: 9.84 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form.cjs.js                                            [39m [2m1.00 KiB / gzip: 0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form.cjs.js.map                                        [39m [2m0.11 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/hooks/form-hooks.cjs.js                                [39m [2m0.25 KiB / gzip: 0.17 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/hooks/form-hooks.cjs.js.map                            [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mindex.cjs.js                                                [39m [2m0.05 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mindex.cjs.js.map                                            [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/hooks/useFormWithContext.cjs.js                        [39m [2m0.78 KiB / gzip: 0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/hooks/useFormWithContext.cjs.js.map                    [39m [2m0.69 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/index.cjs.js                              [39m [2m0.78 KiB / gzip: 0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/index.cjs.js.map                          [39m [2m0.62 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Badge/Badge.cjs.js                               [39m [2m0.96 KiB / gzip: 0.48 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Badge/Badge.cjs.js.map                           [39m [2m0.88 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ui.cjs.js                                        [39m [2m6.14 KiB / gzip: 1.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ui.cjs.js.map                                    [39m [2m0.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ScrollArea/ScrollArea.cjs.js                     [39m [2m2.12 KiB / gzip: 0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ScrollArea/ScrollArea.cjs.js.map                 [39m [2m1.01 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Switch/Switch.cjs.js                             [39m [2m1.99 KiB / gzip: 0.88 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Switch/Switch.cjs.js.map                         [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/DropdownMenu/DropdownMenu.cjs.js                 [39m [2m2.38 KiB / gzip: 0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/DropdownMenu/DropdownMenu.cjs.js.map             [39m [2m1.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/Icon.cjs.js                                 [39m [2m5.80 KiB / gzip: 2.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/Icon.cjs.js.map                             [39m [2m1.97 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Separator/Separator.cjs.js                       [39m [2m1.50 KiB / gzip: 0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Separator/Separator.cjs.js.map                   [39m [2m0.59 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Popover/Popover.cjs.js                           [39m [2m2.70 KiB / gzip: 0.97 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Popover/Popover.cjs.js.map                       [39m [2m1.44 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/OnClickOutsideArea/OnClickOutsideArea.cjs.js     [39m [2m1.21 KiB / gzip: 0.54 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/OnClickOutsideArea/OnClickOutsideArea.cjs.js.map [39m [2m0.90 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Input/Input.cjs.js                               [39m [2m1.28 KiB / gzip: 0.62 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Input/Input.cjs.js.map                           [39m [2m0.74 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/BusyIndicator/BusyIndicator.cjs.js               [39m [2m1.20 KiB / gzip: 0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/BusyIndicator/BusyIndicator.cjs.js.map           [39m [2m0.90 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Checkbox/Checkbox.cjs.js                         [39m [2m1.78 KiB / gzip: 0.76 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Checkbox/Checkbox.cjs.js.map                     [39m [2m0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Label/Label.cjs.js                               [39m [2m1.35 KiB / gzip: 0.63 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Label/Label.cjs.js.map                           [39m [2m0.77 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/ComboBox.cjs.js                         [39m [2m3.57 KiB / gzip: 1.17 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/ComboBox.cjs.js.map                     [39m [2m2.94 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/model/store.control.cjs.js                [39m [2m0.46 KiB / gzip: 0.27 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/model/store.control.cjs.js.map            [39m [2m0.42 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/Dialog.cjs.js                             [39m [2m1.80 KiB / gzip: 0.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/Dialog.cjs.js.map                         [39m [2m0.92 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Button/Button.cjs.js                             [39m [2m3.95 KiB / gzip: 1.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Button/Button.cjs.js.map                         [39m [2m2.17 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AppHeader/AppHeader.cjs.js                       [39m [2m3.26 KiB / gzip: 1.02 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AppHeader/AppHeader.cjs.js.map                   [39m [2m2.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDialogTrigger.cjs.js            [39m [2m1.00 KiB / gzip: 0.47 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDialogTrigger.cjs.js.map        [39m [2m0.41 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/RadioGroup/RadioItem.cjs.js                      [39m [2m1.58 KiB / gzip: 0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/RadioGroup/RadioItem.cjs.js.map                  [39m [2m1.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDalog.cjs.js                    [39m [2m2.36 KiB / gzip: 0.89 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDalog.cjs.js.map                [39m [2m1.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/context/index.cjs.js                      [39m [2m2.24 KiB / gzip: 0.80 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/context/index.cjs.js.map                  [39m [2m2.00 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-manager.cjs.js                     [39m [2m1.63 KiB / gzip: 0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-manager.cjs.js.map                 [39m [2m1.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/RadioGroup/RadioGroup.cjs.js                     [39m [2m0.97 KiB / gzip: 0.47 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/RadioGroup/RadioGroup.cjs.js.map                 [39m [2m0.37 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Table/Table.cjs.js                               [39m [2m5.46 KiB / gzip: 1.58 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Table/Table.cjs.js.map                           [39m [2m4.25 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-select/form-select.cjs.js                         [39m [2m1.17 KiB / gzip: 0.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-select/form-select.cjs.js.map                     [39m [2m0.95 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-field/form-field.cjs.js                           [39m [2m1.20 KiB / gzip: 0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-field/form-field.cjs.js.map                       [39m [2m1.00 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Title/Title.cjs.js                               [39m [2m0.33 KiB / gzip: 0.25 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Title/Title.cjs.js.map                           [39m [2m0.28 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-controller/form-controller.cjs.js                 [39m [2m0.95 KiB / gzip: 0.44 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-controller/form-controller.cjs.js.map             [39m [2m0.82 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/controller/index.cjs.js                    [39m [2m2.77 KiB / gzip: 1.09 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/controller/index.cjs.js.map                [39m [2m1.56 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/model/toast.store.cjs.js                   [39m [2m1.34 KiB / gzip: 0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/model/toast.store.cjs.js.map               [39m [2m1.02 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/UserMenu/UserMenu.cjs.js                         [39m [2m3.16 KiB / gzip: 1.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/UserMenu/UserMenu.cjs.js.map                     [39m [2m1.76 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/page-size.cjs.js                      [39m [2m0.72 KiB / gzip: 0.39 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/page-size.cjs.js.map                  [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/hooks/usePagination.cjs.js            [39m [2m1.55 KiB / gzip: 0.60 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/hooks/usePagination.cjs.js.map        [39m [2m1.55 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/model/pagiantion.store.cjs.js         [39m [2m2.00 KiB / gzip: 0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/model/pagiantion.store.cjs.js.map     [39m [2m1.24 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/TextArea/TextArea.cjs.js                         [39m [2m1.21 KiB / gzip: 0.56 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/TextArea/TextArea.cjs.js.map                     [39m [2m0.98 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-connector/form-connector.cjs.js                   [39m [2m0.55 KiB / gzip: 0.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-connector/form-connector.cjs.js.map               [39m [2m0.50 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Pagination/paginator.cjs.js                      [39m [2m3.23 KiB / gzip: 1.01 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Pagination/paginator.cjs.js.map                  [39m [2m1.85 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/ReactSelect.cjs.js                   [39m [2m2.08 KiB / gzip: 0.78 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/ReactSelect.cjs.js.map               [39m [2m1.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-checkbox/form-checkbox.cjs.js                     [39m [2m1.13 KiB / gzip: 0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-checkbox/form-checkbox.cjs.js.map                 [39m [2m0.95 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Tabs/Tabs.cjs.js                                 [39m [2m3.12 KiB / gzip: 1.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Tabs/Tabs.cjs.js.map                             [39m [2m1.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/form-datepicker/form-date-picker.cjs.js                [39m [2m1.52 KiB / gzip: 0.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/form-datepicker/form-date-picker.cjs.js.map            [39m [2m1.16 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/filter.cjs.js                        [39m [2m1.70 KiB / gzip: 0.77 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/filter.cjs.js.map                    [39m [2m0.47 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mform/field-wrapper/field-wrapper.cjs.js                     [39m [2m1.13 KiB / gzip: 0.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mform/field-wrapper/field-wrapper.cjs.js.map                 [39m [2m0.76 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/plus.cjs.js                          [39m [2m1.02 KiB / gzip: 0.54 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/plus.cjs.js.map                      [39m [2m0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/columnToggler.cjs.js                 [39m [2m1.68 KiB / gzip: 0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/columnToggler.cjs.js.map             [39m [2m0.46 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/printer.cjs.js                       [39m [2m2.28 KiB / gzip: 0.77 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/printer.cjs.js.map                   [39m [2m0.77 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/edit.cjs.js                          [39m [2m1.34 KiB / gzip: 0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/edit.cjs.js.map                      [39m [2m0.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/state.cjs.js                         [39m [2m2.45 KiB / gzip: 0.80 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/state.cjs.js.map                     [39m [2m0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/settings.cjs.js                      [39m [2m1.28 KiB / gzip: 0.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/settings.cjs.js.map                  [39m [2m0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/trash.cjs.js                         [39m [2m1.52 KiB / gzip: 0.73 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/trash.cjs.js.map                     [39m [2m0.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/copy.cjs.js                          [39m [2m1.45 KiB / gzip: 0.69 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/copy.cjs.js.map                      [39m [2m0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/more.cjs.js                          [39m [2m1.65 KiB / gzip: 0.68 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/more.cjs.js.map                      [39m [2m0.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ScrollArea/styles.cjs.js                         [39m [2m0.06 KiB / gzip: 0.07 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ScrollArea/styles.cjs.js.map                     [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/arrow-export.cjs.js                  [39m [2m1.25 KiB / gzip: 0.65 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/arrow-export.cjs.js.map              [39m [2m0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/notepad.cjs.js                       [39m [2m1.36 KiB / gzip: 0.69 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/notepad.cjs.js.map                   [39m [2m0.37 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/hooks/useDelayedLoader.cjs.js           [39m [2m0.67 KiB / gzip: 0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/hooks/useDelayedLoader.cjs.js.map       [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/AlertDialog/AlertDialogCloseButton.cjs.js        [39m [2m0.86 KiB / gzip: 0.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/AlertDialog/AlertDialogCloseButton.cjs.js.map    [39m [2m0.53 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/BusyIndicator/busyIndicator.cjs2.js              [39m [2m0.07 KiB / gzip: 0.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/BusyIndicator/busyIndicator.cjs2.js.map          [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/hooks/usePopperToggle.cjs.js            [39m [2m0.58 KiB / gzip: 0.29 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/hooks/usePopperToggle.cjs.js.map        [39m [2m0.59 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-reference.cjs.js                   [39m [2m3.46 KiB / gzip: 1.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-reference.cjs.js.map               [39m [2m2.16 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/select-popper.cjs.js                      [39m [2m2.98 KiB / gzip: 1.05 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/select-popper.cjs.js.map                  [39m [2m2.24 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/context/useDelayedLoader.cjs.js           [39m [2m0.67 KiB / gzip: 0.33 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/context/useDelayedLoader.cjs.js.map       [39m [2m0.71 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/UserMenu/user.cjs.js                             [39m [2m1.40 KiB / gzip: 0.66 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/UserMenu/user.cjs.js.map                         [39m [2m0.44 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/theme.cjs.js                         [39m [2m0.29 KiB / gzip: 0.22 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/theme.cjs.js.map                     [39m [2m0.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogCloseButton.cjs.js       [39m [2m0.68 KiB / gzip: 0.35 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogCloseButton.cjs.js.map   [39m [2m0.47 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/view/toast-notification.cjs.js             [39m [2m2.86 KiB / gzip: 0.93 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/view/toast-notification.cjs.js.map         [39m [2m1.43 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogContent.cjs.js           [39m [2m3.01 KiB / gzip: 1.00 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogContent.cjs.js.map       [39m [2m1.61 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogHeader.cjs.js            [39m [2m1.00 KiB / gzip: 0.49 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogHeader.cjs.js.map        [39m [2m0.62 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboTrigger.cjs.js          [39m [2m3.48 KiB / gzip: 1.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboTrigger.cjs.js.map      [39m [2m2.32 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogTitle.cjs.js             [39m [2m0.84 KiB / gzip: 0.42 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogTitle.cjs.js.map         [39m [2m0.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboOption.cjs.js           [39m [2m1.69 KiB / gzip: 0.76 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboOption.cjs.js.map       [39m [2m1.26 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Dialog/primitives/DialogClose.cjs.js             [39m [2m0.95 KiB / gzip: 0.46 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Dialog/primitives/DialogClose.cjs.js.map         [39m [2m0.38 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ComboBox/primitives/ComboList.cjs.js             [39m [2m1.44 KiB / gzip: 0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ComboBox/primitives/ComboList.cjs.js.map         [39m [2m1.18 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/dropdown-indicator.cjs.js   [39m [2m0.60 KiB / gzip: 0.34 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/dropdown-indicator.cjs.js.map[39m [2m0.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/indicator-separator.cjs.js  [39m [2m0.58 KiB / gzip: 0.34 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/indicator-separator.cjs.js.map[39m [2m0.59 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Toast/lib/getToastAttributes.cjs.js              [39m [2m1.28 KiB / gzip: 0.41 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Toast/lib/getToastAttributes.cjs.js.map          [39m [2m0.79 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/option.cjs.js                    [39m [2m1.75 KiB / gzip: 0.82 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/option.cjs.js.map                [39m [2m1.02 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/no-options-message.cjs.js   [39m [2m0.32 KiB / gzip: 0.23 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/no-options-message.cjs.js.map[39m [2m0.28 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/combo-input.cjs.js               [39m [2m2.07 KiB / gzip: 0.86 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/combo-input.cjs.js.map           [39m [2m1.45 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/load-indicator.cjs.js       [39m [2m0.65 KiB / gzip: 0.30 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/load-indicator.cjs.js.map   [39m [2m0.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/LoadIndicator/LoadIndicator.cjs.js               [39m [2m0.65 KiB / gzip: 0.30 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/LoadIndicator/LoadIndicator.cjs.js.map           [39m [2m0.51 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Icon/assets/clock.cjs.js                         [39m [2m1.31 KiB / gzip: 0.67 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Icon/assets/clock.cjs.js.map                     [39m [2m0.36 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/load-indicator.cjs.js            [39m [2m0.65 KiB / gzip: 0.30 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/load-indicator.cjs.js.map        [39m [2m0.52 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/LoadIndicator/load-indicator.cjs.js              [39m [2m0.07 KiB / gzip: 0.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/LoadIndicator/load-indicator.cjs.js.map          [39m [2m0.10 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/Select/elements/load-indicator.cjs2.js           [39m [2m0.07 KiB / gzip: 0.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/Select/elements/load-indicator.cjs2.js.map       [39m [2m0.11 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[36mcomponents/ReactSelect/elements/load-indicator.cjs2.js      [39m [2m0.07 KiB / gzip: 0.08 KiB[22m
+[90m[37m[2mdist/[22m[90m[39m[90mcomponents/ReactSelect/elements/load-indicator.cjs2.js.map  [39m [2m0.11 KiB[22m
+
+[vite:dts] Start generate declaration files...
+[vite:dts] Declaration files built in 13569ms.
+

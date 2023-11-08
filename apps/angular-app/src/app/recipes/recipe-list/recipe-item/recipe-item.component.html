@@ -1,0 +1,16 @@
+<div
+  class="px-4 py-2 flex gap-[100px] cursor-pointer relative overflow-hidden rounded-[10px] bg-slate-100 hover:bg-slate-200"
+  (click)="onRecipeClick()"
+  [routerLink]="[index]"
+  routerLinkActive="bg-slate-200"
+>
+  <div>
+    <h4 class="font-semibold text-lg">{{ recipe.name }}</h4>
+    <p>{{ recipe.description }}</p>
+  </div>
+
+  <span>
+    <img [src]="recipe.imagePath" alt="" style="max-height: 50px" />
+  </span>
+
+</div>

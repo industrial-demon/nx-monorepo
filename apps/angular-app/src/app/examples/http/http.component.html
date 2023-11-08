@@ -1,0 +1,27 @@
+<h3 *ngIf="isFetching && !error" class="text-center">Loading...</h3>
+<h3 *ngIf="error" class="text-red-500">{{ error }}</h3>
+
+<mat-list *ngIf="connections.length > 0" role="list">
+    <ng-container
+      *ngFor="let connection of connections; let i = index"
+      [ngSwitch]="connection.editMode"
+    >
+      <mat-list-item
+        *ngSwitchCase="false"
+        (dblclick)="onDbClickItem(connection)"
+        [ngClass]="i % 2 === 1 ? '!bg-slate-100' : ''"
+        role="listitem"
+      >
+        {{ connection.name }}
+        {{ connection.editMode }}
+      </mat-list-item>
+
+      <input
+        #editInput
+        autoFocus
+        *ngSwitchCase="true"
+        (blur)="onBlurInput(connection)"
+        [(ngModel)]="connection.name"
+      />
+    </ng-container>
+</mat-list>

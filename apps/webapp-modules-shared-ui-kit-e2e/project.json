@@ -1,0 +1,32 @@
+{
+  "name": "webapp-modules-shared-ui-kit-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/webapp-modules-shared-ui-kit-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/webapp-modules-shared-ui-kit-e2e/cypress.config.ts",
+        "devServerTarget": "webapp-modules-shared-ui-kit:storybook",
+        "testingType": "e2e"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "webapp-modules-shared-ui-kit:static-storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/webapp-modules-shared-ui-kit-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["webapp-modules-shared-ui-kit"]
+}

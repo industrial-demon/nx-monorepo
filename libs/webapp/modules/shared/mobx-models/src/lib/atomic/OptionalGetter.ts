@@ -1,0 +1,1 @@
+export type OptionalGetter<TVal> = () => TVal | null;

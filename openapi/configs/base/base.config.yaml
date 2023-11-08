@@ -1,0 +1,6 @@
+generatorName: typescript-axios
+cleanupOutput: true
+useSingleRequestParameter: true
+enumPropertyNaming: 'UPPERCASE'
+additionalProperties:
+  supportsES6: true

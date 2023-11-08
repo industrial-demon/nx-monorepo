@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "esnext",
+    "lib": ["es2021", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@generated/api": ["libs/api/src/index.ts"],
+      "@nx-monorepo/radix-ui-kit": ["libs/radix-ui-kit/src/index.ts"],
+      "@webapp/form": ["libs/webapp/modules/shared/form/src/index.ts"],
+      "@webapp/icons": ["libs/webapp/modules/shared/icons/src/index.ts"],
+      "@webapp/mobx-models": [
+        "libs/webapp/modules/shared/mobx-models/src/index.ts"
+      ],
+      "@webapp/ui-kit": ["libs/webapp/modules/shared/ui-kit/src/index.ts"],
+      "@webapp/utils": ["libs/webapp/modules/shared/utils/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

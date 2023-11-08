@@ -1,0 +1,17 @@
+<div class="recipe-list flex flex-col gap-4">
+  <button
+    mat-flat-button
+    (click)="toNewRecipe()"
+    class="!bg-green-600 w-48 !text-white"
+  >
+    New Recipe
+    <mat-icon class="!text-white">add</mat-icon>
+  </button>
+  <hr class="mb-4" />
+  <recipe-item
+    *ngFor="let recipe of recipes; let i = index"
+    [recipe]="recipe"
+    [index]="i"
+  >
+  </recipe-item>
+</div>

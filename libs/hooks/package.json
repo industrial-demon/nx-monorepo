@@ -1,0 +1,20 @@
+{
+  "name": "hooks",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "devDependencies": {
+    "configs": "*",
+    "tsconfig": "*"
+  },
+  "dependencies": {
+    "react-to-print": "^2.14.12",
+    "use-debounce": "^9.0.4"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  }
+}

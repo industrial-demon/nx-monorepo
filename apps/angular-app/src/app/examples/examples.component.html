@@ -1,0 +1,41 @@
+<div class="p-5 flex flex-col">
+  <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+    <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+      <div
+        [routerLink]="node.link"
+        routerLinkActive="bg-green-700"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [ngClass]="
+          treeControl.getLevel(node) > 0
+            ? 'bg-emerald-500 hover:bg-emerald-600 text-white rounded-sm px-5 cursor-pointer flex items-center justify-center'
+            : ''
+        "
+      >
+        <button mat-icon-button disabled *ngIf="node.children"></button>
+        {{ node.value }}
+        <span>{{ node?.name }}</span>
+      </div>
+    </mat-tree-node>
+
+    <mat-tree-node
+      *matTreeNodeDef="let node; when: hasChild"
+      matTreeNodePadding
+    >
+      <button
+        mat-icon-button
+        matTreeNodeToggle
+        [attr.aria-label]="'Toggle ' + node.name"
+      >
+        <mat-icon class="mat-icon-rtl-mirror">
+          {{ treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right' }}
+        </mat-icon>
+      </button>
+      {{ node.name }}
+    </mat-tree-node>
+  </mat-tree>
+  <hr />
+
+  <section class="p-5">
+    <router-outlet></router-outlet>
+  </section>
+</div>

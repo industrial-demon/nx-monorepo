@@ -1,0 +1,20 @@
+{
+  "name": "services",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "devDependencies": {
+    "configs": "*",
+    "tsconfig": "*"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.2.0",
+    "axios": "^1.3.4"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  }
+}

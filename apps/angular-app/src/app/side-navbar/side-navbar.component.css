@@ -1,0 +1,16 @@
+.side-navbar {
+  min-width: 250px;
+}
+
+.nav-list-item {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-list-item-title {
+  padding-left: 10px;
+}
+
+.active-nav-list-item {
+  background-color: rgb(59 130 246 / 0.5);
+}

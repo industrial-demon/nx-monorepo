@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="">
+    <h3 class="text-center">App status: {{appStatus | async }}</h3>
+    <mat-form-field class="example-full-width">
+      <mat-label>Server status</mat-label>
+      <input matInput [(ngModel)]="filteredStatus" />
+    </mat-form-field>
+    {{filteredStatus}}
+    <div class="">
+      <ul class="flex flex-col gap-3 justify-between">
+        <li
+          class="flex justify-between px-4 py-1 items-center"
+          *ngFor="let server of servers | filterItem:filteredStatus:'status'| sort"
+          [ngClass]="getStatusClasses(server)"
+        >
+          <span>
+            <strong>{{ server.name | shorten : 5 }}</strong> |
+            {{ server.instanceType | uppercase | reverse}} |
+            {{ server.started | date : 'fullDate' | uppercase }}
+          </span>
+
+          <mat-chip-option
+            [color]="getChipColorByStatus(server.status)"
+            disableRipple
+            selectable="false"
+            selected=""
+            >{{ server.status }}</mat-chip-option
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

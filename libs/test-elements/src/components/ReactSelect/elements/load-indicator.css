@@ -1,0 +1,87 @@
+#floatBG {
+  position: relative;
+  width: 35px;
+  height: 11px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.floatBG {
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.26);
+  width: 11px;
+  height: 11px;
+  animation-name: bounce_floatBarsG;
+  -o-animation-name: bounce_floatBarsG;
+  -ms-animation-name: bounce_floatBarsG;
+  -webkit-animation-name: bounce_floatBarsG;
+  -moz-animation-name: bounce_floatBarsG;
+  animation-duration: 0.775s;
+  -o-animation-duration: 0.775s;
+  -ms-animation-duration: 0.775s;
+  -webkit-animation-duration: 0.775s;
+  -moz-animation-duration: 0.775s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  transform: scale(0.3);
+  -o-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+}
+
+#floatBG_1 {
+  left: 0;
+  animation-delay: 0.16s;
+  -o-animation-delay: 0.16s;
+  -ms-animation-delay: 0.16s;
+  -webkit-animation-delay: 0.16s;
+  -moz-animation-delay: 0.16s;
+}
+
+#floatBG_2 {
+  left: 11px;
+  animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+}
+
+#floatBG_3 {
+  left: 22px;
+  animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+}
+
+@keyframes bounce_floatBarsG {
+  0% {
+    transform: scale(1);
+    background-color: rgb(228, 222, 252);
+  }
+  25% {
+    background-color: rgb(215, 207, 249);
+  }
+  50% {
+    background-color: rgb(196, 184, 243);
+  }
+  75% {
+    background-color: rgb(170, 153, 236);
+  }
+  100% {
+    transform: scale(0.3);
+    background-color: rgb(110, 86, 207);
+  }
+}

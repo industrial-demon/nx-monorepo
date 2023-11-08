@@ -1,0 +1,7 @@
+{
+  "name": "webapp-preset",
+  "projectType": "library",
+  "sourceRoot": "libs/webapp/tailwind-preset",
+  "targets": {},
+  "tags": []
+}

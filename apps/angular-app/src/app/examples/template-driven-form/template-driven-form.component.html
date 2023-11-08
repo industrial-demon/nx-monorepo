@@ -1,0 +1,133 @@
+<h2 class="text-center text-2xl font-semibold mt-5 mb-6">
+  Template Driven Form
+</h2>
+
+<form
+  #tdForm="ngForm"
+  (ngSubmit)="onSubmit()"
+  class="flex flex-col items-center"
+>
+  <div class="grid grid-cols-2 gap-4 max-w-xl">
+    <mat-form-field class="example-full-width">
+      <mat-label>First name</mat-label>
+      <input
+        ngModel
+        name="firstName"
+        id="firstName"
+        matInput
+        placeholder="Petro"
+        #firstName="ngModel"
+        required
+      />
+      <mat-hint
+        *ngIf="!firstName.valid && firstName.touched"
+        class="text-red-600"
+        >please enter valid name</mat-hint
+      >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Last name</mat-label>
+      <input
+        ngModel
+        name="lastName"
+        id="lastName"
+        matInput
+        placeholder="Petro"
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>First name</mat-label>
+      <input ngModel name="dateOfBirth" id="dateOfBirth" matInput type="date" />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>E-mail</mat-label>
+      <input
+        ngModel
+        name="email"
+        id="email"
+        matInput
+        placeholder="example@example.com"
+        required
+        email
+      />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Framework</mat-label>
+      <mat-select
+        [ngModel]="'react'"
+        name="framework"
+        id="framework"
+        (selectionChange)="onFrameworkChange($event)"
+        #frameWorkField="ngModel"
+        required
+      >
+        <mat-option
+          *ngFor="let framework of frameworkList"
+          [value]="framework.value"
+          class="z-50 bg-green-300"
+        >
+          {{ framework.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Framework version</mat-label>
+      <mat-select
+        ngModel
+        name="frameworkVersion"
+        id="frameworkVersion"
+        [disabled]="frameWorkField.value === ''"
+        required
+      >
+        <mat-option
+          *ngFor="let version of frameworkVersions"
+          [value]="version.value"
+          class="z-50 bg-green-300"
+        >
+          {{ version.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="flex gap-4" ngModelGroup="details">
+    <mat-form-field class="example-full-width">
+      <mat-label>Port</mat-label>
+      <input ngModel name="port" id="port" matInput type="number" />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Role</mat-label>
+      <input ngModel name="role" id="role" matInput />
+    </mat-form-field>
+  </div>
+
+  <div class="flex gap-6">
+    <button
+      mat-flat-button
+      color="primary"
+      type="submit"
+      [disabled]="!tdForm.valid"
+    >
+      Submit
+    </button>
+
+    <button mat-stroked-button color="primary" (click)="onResetForm()">
+      Reset
+    </button>
+  </div>
+</form>
+
+<div *ngIf="userData" class="flex flex-col items-center">
+  <span>{{ userData.firstName }}</span>
+  <span>{{ userData.lastName }}</span>
+  <span>{{ userData.framework }}</span>
+  <span>{{ userData.frameworkVersion }}</span>
+  <span>{{ userData.email }}</span>
+  <div></div>
+</div>

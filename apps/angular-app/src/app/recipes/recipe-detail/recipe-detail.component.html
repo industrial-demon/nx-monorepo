@@ -1,0 +1,48 @@
+<div class="grid grid-cols-1">
+  <div>
+    <img src="{{ recipe.imagePath }}" alt="" class="h-[300px]" />
+  </div>
+
+  <h1 class="text-4xl font-medium">{{ recipe.name }}</h1>
+
+  <div>
+    <button
+      mat-flat-button
+      color="primary"
+      [matMenuTriggerFor]="menu"
+      aria-label="Example icon-button with a menu"
+    >
+      <span>Menage Recipe</span>
+      <mat-icon>more_vert</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu" class="mt-3">
+      <a mat-menu-item routerLink="/shopping-list" (click)="toShoppingList()">
+        <mat-icon>format_list_bulleted</mat-icon>
+        <span>To Shopping List</span>
+      </a>
+      <a mat-menu-item (click)="onEditRecipe($event)">
+        <mat-icon>edit</mat-icon>
+        <span>Edit</span>
+      </a>
+
+      <a mat-menu-item href="www.google.com">
+        <mat-icon>delete_outline</mat-icon>
+        <span>Delete</span>
+      </a>
+    </mat-menu>
+    <div>
+      {{ recipe.description }}
+    </div>
+    <div>
+      <ng-template ngFor let-ingredient [ngForOf]="recipe.ingredients">
+        <mat-list role="list">
+          <mat-list-item role="listitem" class="border-b border-slate-400">
+            {{ ingredient.name }}
+            <span>{{ ingredient.amount }}</span>
+          </mat-list-item>
+        </mat-list>
+      </ng-template>
+    </div>
+  </div>
+</div>

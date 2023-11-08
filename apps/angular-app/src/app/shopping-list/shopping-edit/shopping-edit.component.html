@@ -1,0 +1,30 @@
+<div class="flex">
+  <form>
+    <div class="flex gap-2">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matInput #nameInput />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Amount</mat-label>
+        <input matInput type="number" #amountInput />
+      </mat-form-field>
+    </div>
+
+    <div class="flex gap-2">
+      <button
+        mat-flat-button
+        color="primary"
+        class="!bg-green-600"
+        type="submit"
+        (click)="onAddIngridient(nameInput.value)"
+      >
+        Add
+      </button>
+
+      <button mat-flat-button color="warn" type="button">Delete</button>
+      <button mat-flat-button color="primary" type="button">Clear</button>
+    </div>
+  </form>
+</div>

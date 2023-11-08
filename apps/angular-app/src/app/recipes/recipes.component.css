@@ -1,0 +1,14 @@
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.recipe-list-container {
+    flex-grow: 0;
+}
+
+.recipe-detail-container {
+    flex-grow: 1;
+}

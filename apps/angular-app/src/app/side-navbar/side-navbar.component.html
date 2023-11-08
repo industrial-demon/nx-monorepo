@@ -1,0 +1,30 @@
+<mat-nav-list class="side-navbar">
+  <ng-template ngFor let-route [ngForOf]="routes">
+    <mat-list-item
+      [routerLink]="route.path"
+      class="nav-list-item"
+      routerLinkActive="active-nav-list-item"
+    >
+      <mat-icon matListItemIcon dynamicIcon="{{route.icon}}" color="primary">
+        edit
+      </mat-icon>
+
+      <span matListItemTitle class="nav-list-item-title">
+        {{ route.title }}
+      </span>
+    </mat-list-item>
+  </ng-template>
+</mat-nav-list>
+
+<div class="flex flex-col">
+  <div class="flex flex-col">
+    <h3>{{ iconName }}</h3>
+    <mat-icon
+      matListItemIcon
+      [dynamicIcon]="iconName"
+      color="primary"
+    ></mat-icon>
+  </div>
+
+  <button mat-flat-button (click)="onToggle()" color="primary">Toggle</button>
+</div>
